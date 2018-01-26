@@ -6,8 +6,18 @@ That's it. Nothin more, nothing less. Feel free to change it to your own needs.
 
 ## Installation
 
+It's only one file, so you can get it like this: 
+
+```shell
+cd /to/a/custom/destination/lxd-simple-backup/
+wget https://raw.githubusercontent.com/davideperozzi/lxd-simple-backup/master/backup.py
+chmod +x ./backup.py
+```
+
+## Requirements
+
 You just need **python > 3** and the latest lxc system installed.
-Also Make sure the script is **executable**.
+Also make sure the script is **executable**.
 
 ## Usage
 
