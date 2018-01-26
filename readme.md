@@ -1,4 +1,4 @@
-# Very simple lxd backup script
+# Very simple lxc backup script
 
 This script allows you to create snapshots of a specific container everytime it's executed. 
 It provides an auto cleanup of the containers which are older than the defined "retain time".
