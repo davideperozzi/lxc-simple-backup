@@ -6,8 +6,6 @@ import argparse
 import subprocess
 import time
 
-output = subprocess.run(['ls', '-la'], stdout=subprocess.PIPE)
-
 LXD_CMD = '/usr/bin/lxc'
 SNAP_RETAIN = '172800'
 SNAP_PREFIX = 'backup_'
