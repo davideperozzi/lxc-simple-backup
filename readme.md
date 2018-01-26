@@ -43,7 +43,7 @@ Everything else is covered by the help command:
 
 If you want to execute the script every two hours you could add this to your crontab file: 
 ```
-0 */2 * * * /opt/lxd-simple-backup/backup.by yourContainerName
+0 */2 * * * /opt/lxd-simple-backup/backup.py yourContainerName
 ```
 > To open your crontab file simply call ```crontab -e```
 
