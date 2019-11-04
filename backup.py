@@ -14,7 +14,7 @@ def parse_args():
   parser = argparse.ArgumentParser(description='Simple backup automation script')
   parser.add_argument('name', help='The name of the container')
   parser.add_argument('--snap-prefix', default=SNAP_PREFIX, help='The prefix to use for the snapshots (Default: "' + SNAP_PREFIX + '")')
-  parser.add_argument('--snap-retain', default=SNAP_RETAIN, help='Max time (in ms) to preserve the snapshots (Default: "' + SNAP_RETAIN + '")')
+  parser.add_argument('--snap-retain', default=SNAP_RETAIN, help='Max time (in seconds) to preserve the snapshots (Default: "' + SNAP_RETAIN + '")')
   parser.add_argument('--dry-run', default='0', help='Set this to "1" if no action should be executed') 
 
   return parser.parse_args()
